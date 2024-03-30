@@ -10,4 +10,4 @@ var filter = function(arr, fn) {
         result.push(arr[i])
     }
     return result
-};
+}
