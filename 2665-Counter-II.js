@@ -15,8 +15,8 @@ var createCounter = function(init) {
     function reset(){
        return counter=init
     }
-    return { increment, decrement, reset };
-};
+    return { increment, decrement, reset }
+}
 
 /**
  * const counter = createCounter(5)
